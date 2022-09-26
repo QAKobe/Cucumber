@@ -1,0 +1,1 @@
+file:src/test/resources/features/etsy/scenarioOutline.feature:9:10:11
