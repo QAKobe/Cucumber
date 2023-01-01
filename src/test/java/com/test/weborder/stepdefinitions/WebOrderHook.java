@@ -17,16 +17,16 @@ import java.util.Date;
 
 public class WebOrderHook {
 
-//    WebDriver driver = DriverHelper.getDriver();
-//
-//    @Before
-//    public void navigation() {
-//        driver.get(ConfigReader.readProperty("webOrderUrl"));
-//    }
-//
-//    @After
-//    public void tearDown(Scenario scenario) {
-//        BrowserUtils.takeScreenShot(scenario, driver);
-//       // driver.quit();
-//    }
+    WebDriver driver = DriverHelper.getDriver();
+
+    @Before
+    public void navigation() {
+        driver.get(ConfigReader.readProperty("webOrderUrl"));
+    }
+
+    @After
+    public void tearDown(Scenario scenario) {
+        BrowserUtils.takeScreenShot(scenario, driver);
+       // driver.quit();
+    }
 }

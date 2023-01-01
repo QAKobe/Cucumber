@@ -12,14 +12,18 @@ public class SearchStepDef {
     WebDriver driver = DriverHelper.getDriver();
 
     MainPage mainPage = new MainPage(driver);
+
+
     @When("User searches for {string}")
     public void user_searches_for(String search) {
+
         mainPage.search(search);
     }
     @Then("User validates the title is {string}")
     public void user_validates_the_title_is(String title) throws InterruptedException {
         Thread.sleep(2000);
         Assert.assertEquals(title, driver.getTitle().trim());
+
     }
 
 }

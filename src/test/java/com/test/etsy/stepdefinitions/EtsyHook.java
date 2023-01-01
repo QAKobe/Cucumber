@@ -10,8 +10,8 @@ import utils.DriverHelper;
 
 public class EtsyHook {
 
-//    WebDriver driver = DriverHelper.getDriver();
-//
+   // WebDriver driver = DriverHelper.getDriver();
+
 //    @Before
 //    public void navigation() {
 //        driver.get(ConfigReader.readProperty("etsyUrl"));
@@ -21,6 +21,6 @@ public class EtsyHook {
 //    public void tearDown(Scenario scenario) {
 //        BrowserUtils.takeScreenShot(scenario, driver);
 //        driver.quit();
-//    }
+    //}
 
 }

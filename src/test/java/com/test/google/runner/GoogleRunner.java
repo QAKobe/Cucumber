@@ -12,7 +12,6 @@ import org.junit.runner.RunWith;
         tags ="@product",
         plugin ={"pretty","html:target/uiReport.html","rerun:target/uiFailedTests.txt",
                 "json:target/cucumber-reports/cucumber.json"}
-
 )
 
 public class GoogleRunner {
